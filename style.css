@@ -1,0 +1,98 @@
+@font-face {
+  font-family: "Renew";
+  src: url("resources/black.ttf");
+  font-weight: bold;
+}
+
+body {
+ 	background-color: #498eff;
+}
+
+div.body {
+	color: white;
+	background-color: none;
+	width: 45%;
+	height: calc(0.63 * width);
+	min-width: 400px;
+	min-height: 229.5px;
+  	left: 10%;
+
+  	margin: 0;
+	position: fixed;
+	top: 25vh;
+}
+
+div.mainmenu{
+	color: white;
+	background-color: none;
+  	height: 80%;
+  	width: 50%;
+
+  	position: absolute;
+  	left: 130%;
+  	top: 10%;
+}
+
+h1 {
+ 	text-align: center;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 11.5vw;
+ 	line-height: calc(1vh + 2vw);
+}
+
+h2{
+	text-align: left;
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 11.5vw;
+ 	line-height: calc(1vh + 2vw);
+}
+
+ul {
+
+  list-style-type: none;
+
+  text-align: left; 
+  font-family: 'Renew', sans-serif;
+  font-weight: 600;
+  letter-spacing: 0;
+  font-size: 2.85vw;
+  line-height: calc(5.5vh + 1vw);
+
+}
+
+
+a.mainmenu:link {
+	color: white;
+	text-decoration: none;
+}
+a.mainmenu:visited {
+	color: white;
+ 	text-decoration: none;
+}
+a.mainmenu:hover {
+	font-size: 5.5vmin;
+}
+a.mainmenu:active {
+	font-size: 5.5vmin;
+}
+
+a.return:link {
+	font-size: 2.5vmin;
+	color: white;
+	text-decoration: none;
+}
+a.return:visited {
+	color: white;
+ 	text-decoration: none;
+}
+a.return:hover {
+	font-size: 3.5vmin;
+}
+a.return:active {
+	font-size: 3.5vmin;
+}
+
+p {
+	font-family: verdana;
+	font-size: 20px;
+}
